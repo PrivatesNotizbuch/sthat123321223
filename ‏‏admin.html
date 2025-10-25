@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>لوحة تحكم صاحب العمل</title>
+  <link rel="stylesheet" href="admin.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="admin-wrap">
+    <div id="login-box" class="card">
+      <h2>تسجيل دخول</h2>
+      <input id="pwd" type="password" placeholder="كلمة السر">
+      <button id="loginBtn">دخول</button>
+      <p class="hint">كلمة السر الافتراضية: <strong>Dammam2025!</strong></p>
+    </div>
+
+    <div id="panel" class="card hidden">
+      <h2>لوحة التحكم الرئيسية</h2>
+
+      <label>عنوان الموقع</label>
+      <input id="siteTitle" type="text">
+
+      <label>وصف الواجهة الرئيسية</label>
+      <textarea id="heroDesc"></textarea>
+
+      <label>خدمة 1 - العنوان</label>
+      <input id="s1t" type="text">
+      <label>خدمة 1 - الوصف</label>
+      <textarea id="s1d"></textarea>
+
+      <label>خدمة 2 - العنوان</label>
+      <input id="s2t" type="text">
+      <label>خدمة 2 - الوصف</label>
+      <textarea id="s2d"></textarea>
+
+      <label>خدمة 3 - العنوان</label>
+      <input id="s3t" type="text">
+      <label>خدمة 3 - الوصف</label>
+      <textarea id="s3d"></textarea>
+
+      <label>نص عن الشركة</label>
+      <textarea id="aboutText"></textarea>
+
+      <label>هاتف 1</label>
+      <input id="phone1" type="text">
+      <label>هاتف 2</label>
+      <input id="phone2" type="text">
+
+      <label>رابط انستقرام</label>
+      <input id="insta" type="text">
+      <label>رابط تيك توك</label>
+      <input id="tiktok" type="text">
+      <label>رابط خريطة</label>
+      <input id="gmap" type="text">
+
+      <div class="row">
+        <button id="saveBtn">حفظ التعديلات</button>
+        <button id="logoutBtn">خروج</button>
+      </div>
+
+      <hr>
+      <h3>تغيير كلمة السر</h3>
+      <label>كلمة السر الحالية</label>
+      <input id="curPwd" type="password">
+      <label>كلمة السر الجديدة</label>
+      <input id="newPwd" type="password">
+      <button id="changePwdBtn">تغيير كلمة السر</button>
+
+    </div>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>

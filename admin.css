@@ -1,0 +1,9 @@
+body{font-family:'Cairo',sans-serif;background:#f3f6fb;margin:0}
+.admin-wrap{max-width:900px;margin:36px auto;padding:12px}
+.card{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 20px rgba(10,40,80,0.06);margin-bottom:12px}
+input,textarea{width:100%;padding:10px;margin:6px 0 12px;border-radius:8px;border:1px solid #d0d7e6}
+button{background:#0b63d3;color:#fff;border:0;padding:10px 14px;border-radius:8px;cursor:pointer}
+.row{display:flex;gap:8px}
+.hidden{display:none}
+.hint{color:#666;font-size:14px}
+hr{border:none;border-top:1px solid #eef2f7;margin:12px 0}
